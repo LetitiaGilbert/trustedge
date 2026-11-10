@@ -1,6 +1,6 @@
 ![TrustEdge Bare/Box Edition Logo](etc/banner.png)
 
-TrustEdge - Bare/Box Edition **{ Backup }**
+TrustEdge - Bare/Box Edition
 ===========
 
 TrustEdge is a TPM-based security framework for AI agents. It intercepts every action an agent wants to take, checks it against policy, verifies attestation via a TPM quote, and asks a human for final approval. The agent cannot bypass or approve its own actions, approved scripts run only inside an isolated desktop sandbox.
