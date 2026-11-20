@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # Framework (interceptor, policy, TPM attestation, audit log)
 docker run -d --rm \
   --name trustedge-c3 \

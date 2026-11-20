@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # TPM emulator
 docker run -d --rm \
   --name trustedge-c2 \
