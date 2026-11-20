@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # Agent + Ollama. Needs the NVIDIA Container Toolkit for --gpus all.
 # The model is stored in the trustedge-ollama volume, so it is only
 # downloaded once.
