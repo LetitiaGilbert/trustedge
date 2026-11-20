@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # Clear the terminal
 clear
 # Open the agent prompt (instant, no docker attach).
