@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh 
 # Starts all four containers in the background. Then use:
 #   ./scripts/agent.sh       - talk to the agent
 #   ./scripts/dashboard.sh   - live dashboard
