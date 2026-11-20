@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # Sandbox desktop (XFCE4 + TigerVNC + noVNC).
 # Open http://localhost:6080/vnc.html - VNC password: trustedge
 docker run -d --rm \
