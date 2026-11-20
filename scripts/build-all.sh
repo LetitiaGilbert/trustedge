@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh 
 set -e
 cd "$(dirname "$0")/.."
 docker build -t trustedge-c1 ./c1
