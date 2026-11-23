@@ -1,4 +1,4 @@
-FROM archlinux:base
+FROM menci/archlinuxarm:latest
 RUN pacman -Syu --noconfirm --needed swtpm tpm2-tss && \
     rm -rf /var/cache/pacman/pkg/* && \
     rm -rf /var/cache/pacman/pkg/* /var/lib/pacman/sync/*
