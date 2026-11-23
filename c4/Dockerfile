@@ -1,5 +1,4 @@
-FROM archlinux:latest
-
+FROM menci/archlinuxarm:latest
 RUN pacman -Syu --noconfirm --needed \
         xfce4 xfce4-terminal tigervnc xorg-fonts-misc xorg-xdpyinfo xorg-xauth \
         chromium dbus git python python-pip noto-fonts sudo inetutils zenity xfce4-appfinder && \
