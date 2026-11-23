@@ -1,5 +1,4 @@
-FROM archlinux:latest
-
+FROM menci/archlinuxarm:latest
 RUN pacman -Syu --noconfirm --needed \
         python python-pip curl zstd pciutils base-devel && \
     rm -rf /var/cache/pacman/pkg/*
