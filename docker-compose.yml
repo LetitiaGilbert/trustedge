@@ -48,13 +48,6 @@ services:
       - FRAMEWORK_WS=ws://trustedge-c3:8000/agent-link
     volumes:
       - trustedge-ollama:/root/.ollama
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: all
-              capabilities: [gpu]
     depends_on:
       - trustedge-c3
     networks:
