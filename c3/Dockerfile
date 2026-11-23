@@ -1,5 +1,4 @@
-FROM archlinux:base
-
+FROM menci/archlinuxarm:latest
 RUN pacman -Syu --noconfirm --needed \
         python python-pip sqlite tpm2-tss tpm2-tools curl gcc pkgconf \
         glow entr && \
